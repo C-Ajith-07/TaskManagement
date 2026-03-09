@@ -1,0 +1,78 @@
+<%- include('header') %>
+
+<style>
+  .content-box {
+    background: white;
+    border-radius: 15px;
+    padding: 3rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+
+  .content-box h1 {
+    color: #667eea;
+    margin-bottom: 1.5rem;
+  }
+
+  .content-box p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .info-card {
+    text-align: center;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+  }
+
+  .info-card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .info-card p {
+    color: #667eea;
+    font-weight: 600;
+    margin: 0;
+  }
+</style>
+
+<div class="content-box">
+  <h1>Contact Us</h1>
+  
+  <p>
+    Have questions or feedback about TaskMaster? We'd love to hear from you! 
+    Reach out to us through any of the channels below.
+  </p>
+
+  <div class="contact-info">
+    <div class="info-card">
+      <h3>Email</h3>
+      <p>AjithKumar@taskmaster.com</p>
+    </div>
+    
+    <div class="info-card">
+      <h3>Phone</h3>
+      <p>+91 9876542354</p>
+    </div>
+    
+    <div class="info-card">
+      <h3>Address</h3>
+      <p>123 Kumampatti<br>viruthunagar City, pin 627 762</p>
+    </div>
+  </div>
+
+</div>
+
+<%- include('footer') %>
